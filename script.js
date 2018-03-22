@@ -1,4 +1,4 @@
-(document).ready(function() {
+$(document).ready(function() {
 
   var apiRoot = 'https://fathomless-bayou-16135.herokuapp.com/v1/task/';
   var datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
